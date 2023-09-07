@@ -16,6 +16,8 @@ dependencies:
 
   sign_in_with_apple_platform_interface: ^1.0.0
 
+  sign_in_with_apple_web: ^1.0.0
+
 dev_dependencies:
   flutter_lints: ^1.0.4
   flutter_test:
@@ -40,4 +42,4 @@ flutter:
       macos:
         pluginClass: SignInWithApplePlugin
       web:
-        default_package: SignInWithApplePlugin
+        default_package: sign_in_with_apple_web
